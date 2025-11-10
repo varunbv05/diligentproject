@@ -8,13 +8,15 @@ https://user-images.githubusercontent.com/84639970/226336865-730156f4-196f-4787-
 - In the project directory,Install libraries by typing `yarn`
 - Open a new file named .env
 
-```environment
-    MONGO_URI=mongodb+srv://user:passworrd@seyit.jwhpjae.mongodb.net/?retryWrites=true&w=majority
-    JWT_SECRET=sdgkMKEVlm3v23kl_n423vGG3b_TVnm234xnv23
-    JWT_REFRESH_SECRET=rerv1jv15v1CVBnasd23jnv1j3123nvrqwr23
-```
+-```environment
+-    # Create a file at `backend/.env` (this file is ignored by git) and add your secrets here.
+-    # Example placeholders (DO NOT commit real secrets into the repo):
+-    MONGO_URI=mongodb+srv://<username>:<password>@<cluster>.mongodb.net/<dbname>?retryWrites=true&w=majority
+-    JWT_SECRET=<your_jwt_secret_here>
+-    JWT_REFRESH_SECRET=<your_jwt_refresh_secret_here>
+-```
 
-- and type your mongodb URI
+- Replace the placeholder values with your actual connection string and secrets. DO NOT commit that file to git.
 - Then Run backend project with `yarn dev`
 
 ---
@@ -71,4 +73,5 @@ https://user-images.githubusercontent.com/84639970/226336865-730156f4-196f-4787-
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+"# diligentproject" 
 "# diligentproject" 
